@@ -1,0 +1,89 @@
+/************** GERAL ********************/
+body {
+  overflow: hidden;
+  background-color: #222831;
+  background-repeat: no-repeat;
+}
+
+/************ CALCULADORA ****************/
+
+.calculadora {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #393E46;
+  box-shadow: 5px 7px 7px #000;
+  border-radius: 8px;
+}
+
+
+.btn{
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.btnValor{
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px #000;
+  background-color: #EEEEEE;
+  font-weight: 400;
+}
+
+
+.btnAcao {
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px #000;
+  background-color: #00ADB5;
+  font-weight: lighter;
+  font-weight: 400;
+}
+
+
+.clear {
+  width: 130px;
+}
+
+.enter {
+  height: 110px;
+}
+
+.zero {
+  width: 130px;
+}
+
+.calculadora .resultado{
+  display: flex;
+  text-align: right;
+  font-size: 30px;
+  font-family: 'calculator', 'Courier New', Courier, monospace;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  border: solid 1px #000;
+  box-shadow: 1px 1px 1px #000;
+
+  background: #BDC7C2;
+  font-weight: bold;
+}
+
+.editarUltimaLinha {
+  margin-top: -60px;
+  margin-right: 58px;
+}
+
+
+div .row{
+  justify-content: center;
+}
+
+div .row button{
+  cursor: pointer;
+}
